@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "OptimaNova";
+    src: url(fonts/OptimaNovaLTProRegular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nimbus";
+    src: url(fonts/NimbusSanL-Reg.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body {
+    width: 1200px !important;
+    margin: 0px auto;
+    font-family: "OptimaNova";
+
+    .col-12 {
+        padding-left: 0px !important;
+    }
+
+
+
+    #header {
+        border-bottom: 1px solid black;
+
+
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+
+    #infoStatic p {
+        color: grey;
+        font-family: "OptimaNova";
+
+    }
+
+    #navigation div ul li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            color: black;
+            transition: all 300ms;
+        }
+
+        a:hover {
+            border-color: black;
+        }
+
+    }
+
+    section #locationSinMapa {
+        margin-left: 74px !important;
+    }
+
+
+    // #mapa{
+
+    // }
+
+    #infoProyecto {
+        border-top: 1px solid black;
+
+        p {
+            font-family: "Nimbus";
+            font-size: 14px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+    }
+
+    footer {
+        a {
+            font-size: 13px;
+            color: black;
+        }
+    }
+
+
+}
